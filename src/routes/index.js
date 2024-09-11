@@ -5,7 +5,7 @@ function routes(app){
 	app.use('/', express.static('public'));
 	app.get('/opa', opa)
 	app.get('/dados', dados)
-	app.get('/teste/:valor', teste)
+	app.get('/teste', teste);
 }
 
 export default routes;
